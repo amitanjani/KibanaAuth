@@ -2,7 +2,7 @@
 LDAP Authentication in Kibana
 
 ##Introduction
-This project provide LDAP authentication in Kibana using Spring security framework
+This project provides LDAP authentication in Kibana using Spring security framework
 
 ##Requirements
 1. JDK 1.6
