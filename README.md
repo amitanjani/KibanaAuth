@@ -10,7 +10,7 @@ This project provide LDAP authentication in Kibana using Spring security framewo
 3. Apache Tomcat 7
 
 ## Build, configuration and deployment
-1.    Clone the project: git clone https://github.com/amitanjani/KibanaAuth.git
+1.    Clone the project: ``git clone https://github.com/amitanjani/KibanaAuth.git``
 2.    Open kibana\src\main\webapp\WEB-INF\spring-security.xml and replace ldap server url and rdn-ou-active with commented line.
 3.    Open kibana\src\main\resources\properties\authorised_user.properties and authorised ldap UID (to give permission to selected group of people)
 4.    goto kibana folder and run mvn clean install
