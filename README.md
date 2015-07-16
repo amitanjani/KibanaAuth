@@ -11,9 +11,10 @@ This project provide LDAP authentication in Kibana using Spring security framewo
 
 ## Build, configuration and deployment
 1.    Clone the project: ``git clone https://github.com/amitanjani/KibanaAuth.git``
-2.    Open kibana\src\main\webapp\WEB-INF\spring-security.xml and replace ldap server url and rdn-ou-active with commented line.
-3.    Open kibana\src\main\resources\properties\authorised_user.properties and authorised ldap UID (to give permission to selected group of people)
-4.    goto kibana folder and run mvn clean install
-5.    Copy generated war file(in kibana\target) in tomcat server webapp folder and start the server.
-6.    Open url http://localhost:8082/kibana in browser.
+2.    Update ldap server url and rdn-ou-active in kibana\src\main\webapp\WEB-INF\spring-security.xml.
+3.    Update ```kibana\src\main\resources\properties\authorised_user.properties``` with authorised ldap UID (i.e. To give kibana access permission to selected group of people)
+4.    Update elasticsearch server url in ```kibana\src\main\resources\config.js```
+5.    Goto kibana folder and run mvn clean install
+6.    Copy generated war file(in kibana\target) in tomcat server webapp folder and start the server.
+7.    Open url ``http://localhost:8082/kibana`` in browser.
 
