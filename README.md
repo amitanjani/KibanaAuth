@@ -18,3 +18,5 @@ This project provides LDAP authentication in Kibana using Spring security framew
 6.    Copy generated war file(in kibana\target) in tomcat server webapp folder and start the server.
 7.    Open url ``http://localhost:8082/kibana`` in browser.
 
+If you find any issue in using the application, Comment below.
+
